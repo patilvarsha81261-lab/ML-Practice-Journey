@@ -25,3 +25,20 @@ import numpy as np
 a = np.array([2, 4, 6])
 
 print(a * 3)
+
+#D. Calculate the mean (average)
+
+import numpy as np
+
+marks = np.array([70, 80, 90, 60, 100])
+
+print(np.mean(marks))
+
+#E. Find maximum and minimum
+
+import numpy as np
+
+numbers = np.array([23, 45, 12, 67, 89])
+
+print("Maximum:", np.max(numbers))
+print("Minimum:", np.min(numbers))
