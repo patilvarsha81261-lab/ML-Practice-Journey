@@ -17,3 +17,11 @@ import numpy as np
 a = np.array([10, 20, 30])
 
 print(a + 5)
+
+
+#C. Multiply array elements
+import numpy as np
+
+a = np.array([2, 4, 6])
+
+print(a * 3)
