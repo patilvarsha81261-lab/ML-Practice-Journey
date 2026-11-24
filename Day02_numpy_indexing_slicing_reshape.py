@@ -22,3 +22,12 @@ matrix = np.array([
 print("Element:", matrix[1, 2])
 print("Second row:", matrix[1])
 print("Second column:", matrix[:, 1])
+
+
+
+# 4. Reshape
+numbers = np.array([1, 2, 3, 4, 5, 6])
+
+reshaped = numbers.reshape(2, 3)
+print("Reshaped array:")
+print(reshaped)
