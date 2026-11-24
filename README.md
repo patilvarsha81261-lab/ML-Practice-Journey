@@ -1,6 +1,3 @@
-# ML-Practice-Journey
-My daily Machine Learning practice using Python, NumPy, Pandas and Scikit-learn.
-
 # 📘 ML Practice Journey
 
 > My daily journey of learning Python libraries, Machine Learning, Data Science, and building practical skills for my AI/ML career.
