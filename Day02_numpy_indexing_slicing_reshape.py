@@ -31,3 +31,6 @@ numbers = np.array([1, 2, 3, 4, 5, 6])
 reshaped = numbers.reshape(3, 2)
 print("Reshaped array:")
 print(reshaped)
+
+# 5. Shape
+print("Shape:", reshaped.shape)
