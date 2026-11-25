@@ -21,3 +21,6 @@ print("Even numbers:", arr4)
 arr5 = np.linspace(1, 10, 5)
 print("Linspace:", arr5)
 
+# 6. Full
+arr6 = np.full(5, 7)
+print("Full:", arr6)
