@@ -30,3 +30,8 @@ arr7 = np.array([1, 2, 3, 4], dtype=float)
 print("Float array:", arr7)
 print("Data type:", arr7.dtype)
 
+
+# 8. 2D zeros
+arr8 = np.zeros((2, 3))
+print("2D zeros:")
+print(arr8)
