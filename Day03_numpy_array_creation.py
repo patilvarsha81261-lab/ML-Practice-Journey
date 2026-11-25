@@ -7,3 +7,8 @@ print("Zeros:", arr1)
 # 2. Ones
 arr2 = np.ones(5)
 print("Ones:", arr2)
+
+
+# 3. Arange
+arr3 = np.arange(1, 11)
+print("Arange:", arr3)
