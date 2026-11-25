@@ -16,3 +16,8 @@ print("Arange:", arr3)
 # 4. Arange with step
 arr4 = np.arange(2, 11, 2)
 print("Even numbers:", arr4)
+
+# 5. Linspace
+arr5 = np.linspace(1, 10, 5)
+print("Linspace:", arr5)
+
