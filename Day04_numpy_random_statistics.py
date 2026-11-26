@@ -26,3 +26,14 @@ print("Random values:", decimal_values)
 np.random.seed(42)
 seed_numbers = np.random.randint(1, 100, size=5)
 print("Seed numbers:", seed_numbers)
+
+# 7. Statistics
+marks = np.array([40, 50, 60, 70, 80])
+
+print("Total:", np.sum(marks))
+print("Mean:", np.mean(marks))
+print("Median:", np.median(marks))
+print("Maximum:", np.max(marks))
+print("Minimum:", np.min(marks))
+print("Standard deviation:", np.std(marks))
+print("Variance:", np.var(marks))
