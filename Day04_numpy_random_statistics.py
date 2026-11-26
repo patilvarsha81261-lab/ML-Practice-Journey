@@ -12,3 +12,8 @@ print(random_matrix)
 # 3. Random integers
 integers = np.random.randint(1, 100, size=5)
 print("Random integers:", integers)
+
+# 4. Random 2D integers
+matrix = np.random.randint(1, 10, size=(3, 3))
+print("Random integer matrix:")
+print(matrix)
