@@ -17,3 +17,7 @@ print("Random integers:", integers)
 matrix = np.random.randint(1, 10, size=(3, 3))
 print("Random integer matrix:")
 print(matrix)
+
+# 5. Random decimal values using random()
+decimal_values = np.random.random(4)
+print("Random values:", decimal_values)
