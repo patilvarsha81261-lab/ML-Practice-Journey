@@ -19,3 +19,9 @@ print("\nGreater than 50:", marks > 50)
 print("Less than 60:", marks < 60)
 print("Equal to 75:", marks == 75)
 
+# 3. Boolean masking
+passed = marks[marks >= 50]
+failed = marks[marks < 50]
+
+print("\nPassed marks:", passed)
+print("Failed marks:", failed)
