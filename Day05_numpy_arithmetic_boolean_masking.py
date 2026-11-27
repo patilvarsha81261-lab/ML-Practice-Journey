@@ -29,3 +29,15 @@ print("Failed marks:", failed)
 # 4. Multiple conditions
 result = marks[(marks >= 50) & (marks <= 80)]
 print("Marks between 50 and 80:", result)
+
+
+# 5. Axis operations
+matrix = np.array([
+    [10, 20, 30],
+    [40, 50, 60]
+])
+
+print("\nColumn sums:", np.sum(matrix, axis=0))
+print("Row sums:", np.sum(matrix, axis=1))
+print("Column averages:", np.mean(matrix, axis=0))
+print("Row averages:", np.mean(matrix, axis=1))
