@@ -25,3 +25,7 @@ failed = marks[marks < 50]
 
 print("\nPassed marks:", passed)
 print("Failed marks:", failed)
+
+# 4. Multiple conditions
+result = marks[(marks >= 50) & (marks <= 80)]
+print("Marks between 50 and 80:", result)
